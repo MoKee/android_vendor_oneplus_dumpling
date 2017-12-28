@@ -26,6 +26,9 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/dumpling/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
     vendor/oneplus/dumpling/proprietary/etc/acdbdata/MTP/MTP_workspaceFile.qwsp:system/etc/acdbdata/MTP/MTP_workspaceFile.qwsp \
     vendor/oneplus/dumpling/proprietary/etc/acdbdata/adsp_avs_config.acdb:system/etc/acdbdata/adsp_avs_config.acdb \
+    vendor/oneplus/dumpling/proprietary/etc/camera/ashdr/iso617_4608x3456.ncf:system/etc/camera/ashdr/iso617_4608x3456.ncf \
+    vendor/oneplus/dumpling/proprietary/etc/camera/ashdr/ncf_pack.ncf:system/etc/camera/ashdr/ncf_pack.ncf \
+    vendor/oneplus/dumpling/proprietary/etc/camera/attribute.model:system/etc/camera/attribute.model \
     vendor/oneplus/dumpling/proprietary/etc/camera/camera_config.xml:system/etc/camera/camera_config.xml \
     vendor/oneplus/dumpling/proprietary/etc/camera/cp/CPCalibrationData.bin:system/etc/camera/cp/CPCalibrationData.bin \
     vendor/oneplus/dumpling/proprietary/etc/camera/cp/SystemParamsBokeh.bin:system/etc/camera/cp/SystemParamsBokeh.bin \
@@ -35,6 +38,9 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/dumpling/proprietary/etc/camera/imx371_chromatix.xml:system/etc/camera/imx371_chromatix.xml \
     vendor/oneplus/dumpling/proprietary/etc/camera/imx376k_chromatix.xml:system/etc/camera/imx376k_chromatix.xml \
     vendor/oneplus/dumpling/proprietary/etc/camera/imx398_chromatix.xml:system/etc/camera/imx398_chromatix.xml \
+    vendor/oneplus/dumpling/proprietary/etc/camera/license.lic:system/etc/camera/license.lic \
+    vendor/oneplus/dumpling/proprietary/etc/camera/sticker/megviifacepp_0_4_7_model:system/etc/camera/sticker/megviifacepp_0_4_7_model \
+    vendor/oneplus/dumpling/proprietary/etc/camera/sticker/mgbeautify_1_2_3_model:system/etc/camera/sticker/mgbeautify_1_2_3_model \
     vendor/oneplus/dumpling/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
     vendor/oneplus/dumpling/proprietary/etc/firmware/cpp_firmware_v1_12_0.fw:system/etc/firmware/cpp_firmware_v1_12_0.fw \
     vendor/oneplus/dumpling/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
@@ -64,6 +70,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/dumpling/proprietary/lib/lib_oneplus_facebeauty.so:system/lib/lib_oneplus_facebeauty.so \
     vendor/oneplus/dumpling/proprietary/lib/lib_oneplus_md.so:system/lib/lib_oneplus_md.so \
     vendor/oneplus/dumpling/proprietary/lib/lib_oneplus_watermark.so:system/lib/lib_oneplus_watermark.so \
+    vendor/oneplus/dumpling/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/oneplus/dumpling/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/oneplus/dumpling/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/oneplus/dumpling/proprietary/lib/libmms_gyro_vstab.so:system/lib/libmms_gyro_vstab.so \
@@ -90,9 +97,17 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libactuator_lc898217xc_imx350.so:system/vendor/lib/libactuator_lc898217xc_imx350.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libactuator_lc898217xc_imx376k.so:system/vendor/lib/libactuator_lc898217xc_imx376k.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libactuator_lc898217xc_imx398.so:system/vendor/lib/libactuator_lc898217xc_imx398.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib/libarcsoft_dualcam_bokeh_api.so:system/vendor/lib/libarcsoft_dualcam_bokeh_api.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libarcsoft_dualcam_refocus.so:system/vendor/lib/libarcsoft_dualcam_refocus.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib/libarcsoft_dualcam_refocus_left.so:system/vendor/lib/libarcsoft_dualcam_refocus_left.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib/libarcsoft_dualcam_refocus_preview.so:system/vendor/lib/libarcsoft_dualcam_refocus_preview.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib/libarcsoft_dualcam_refocus_right.so:system/vendor/lib/libarcsoft_dualcam_refocus_right.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib/libblur_channel.so:system/vendor/lib/libblur_channel.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libblurbuster.so:system/vendor/lib/libblurbuster.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libcamera_bokeh_wrapper.so:system/vendor/lib/libcamera_bokeh_wrapper.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib/libcamera_cp_bokeh.so:system/vendor/lib/libcamera_cp_bokeh.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib/libcamera_cp_wrapper.so:system/vendor/lib/libcamera_cp_wrapper.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib/libcamera_oneplus_bokeh_wrapper.so:system/vendor/lib/libcamera_oneplus_bokeh_wrapper.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libcdsprpc.so:system/vendor/lib/libcdsprpc.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libchromatix_imx350_3a_1536x866_30fps_video.so:system/vendor/lib/libchromatix_imx350_3a_1536x866_30fps_video.so \
@@ -117,10 +132,14 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libchromatix_imx350_isp_4608x3456_27fps_snapshot.so:system/vendor/lib/libchromatix_imx350_isp_4608x3456_27fps_snapshot.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libchromatix_imx350_isp_5184x3880_30fps_snapshot.so:system/vendor/lib/libchromatix_imx350_isp_5184x3880_30fps_snapshot.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libchromatix_imx350_postproc.so:system/vendor/lib/libchromatix_imx350_postproc.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib/libchromatix_imx371_3a_2304x1728_30fps_face_register.so:system/vendor/lib/libchromatix_imx371_3a_2304x1728_30fps_face_register.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libchromatix_imx371_3a_2304x1728_30fps_preview.so:system/vendor/lib/libchromatix_imx371_3a_2304x1728_30fps_preview.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib/libchromatix_imx371_3a_2304x1728_30fps_preview_ofilm.so:system/vendor/lib/libchromatix_imx371_3a_2304x1728_30fps_preview_ofilm.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libchromatix_imx371_3a_2304x1728_30fps_video.so:system/vendor/lib/libchromatix_imx371_3a_2304x1728_30fps_video.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib/libchromatix_imx371_3a_2304x1728_30fps_video_ofilm.so:system/vendor/lib/libchromatix_imx371_3a_2304x1728_30fps_video_ofilm.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libchromatix_imx371_3a_640x480_120fps_video.so:system/vendor/lib/libchromatix_imx371_3a_640x480_120fps_video.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libchromatix_imx371_common.so:system/vendor/lib/libchromatix_imx371_common.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib/libchromatix_imx371_common_ofilm.so:system/vendor/lib/libchromatix_imx371_common_ofilm.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libchromatix_imx371_cpp_2304x1728_30fps_flash.so:system/vendor/lib/libchromatix_imx371_cpp_2304x1728_30fps_flash.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libchromatix_imx371_cpp_2304x1728_30fps_hdr.so:system/vendor/lib/libchromatix_imx371_cpp_2304x1728_30fps_hdr.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libchromatix_imx371_cpp_2304x1728_30fps_liveshot.so:system/vendor/lib/libchromatix_imx371_cpp_2304x1728_30fps_liveshot.so \
@@ -139,6 +158,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libchromatix_imx376k_3a_2592x1458_60fps_video.so:system/vendor/lib/libchromatix_imx376k_3a_2592x1458_60fps_video.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libchromatix_imx376k_3a_2592x1940_30fps_preview.so:system/vendor/lib/libchromatix_imx376k_3a_2592x1940_30fps_preview.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libchromatix_imx376k_3a_2592x1940_30fps_preview_bokeh.so:system/vendor/lib/libchromatix_imx376k_3a_2592x1940_30fps_preview_bokeh.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib/libchromatix_imx376k_3a_2592x1940_30fps_preview_wechat.so:system/vendor/lib/libchromatix_imx376k_3a_2592x1940_30fps_preview_wechat.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libchromatix_imx376k_common.so:system/vendor/lib/libchromatix_imx376k_common.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libchromatix_imx376k_cpp_2592x1458_120fps_video.so:system/vendor/lib/libchromatix_imx376k_cpp_2592x1458_120fps_video.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libchromatix_imx376k_cpp_2592x1458_60fps_video.so:system/vendor/lib/libchromatix_imx376k_cpp_2592x1458_60fps_video.so \
@@ -199,6 +219,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libfusionLibrary.so:system/vendor/lib/libfusionLibrary.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libjni_blurbuster.so:system/vendor/lib/libjni_blurbuster.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libjni_chromaflash.so:system/vendor/lib/libjni_chromaflash.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib/libjni_dualcamera.so:system/vendor/lib/libjni_dualcamera.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libjni_filtergenerator.so:system/vendor/lib/libjni_filtergenerator.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libjni_makeupV2.so:system/vendor/lib/libjni_makeupV2.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libjni_optizoom.so:system/vendor/lib/libjni_optizoom.so \
@@ -301,6 +322,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libmmcamera_ppbase_module.so:system/vendor/lib/libmmcamera_ppbase_module.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libmmcamera_ppeiscore.so:system/vendor/lib/libmmcamera_ppeiscore.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libmmcamera_quadracfa.so:system/vendor/lib/libmmcamera_quadracfa.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib/libmmcamera_s5k3p8sp_m24c64s_eeprom.so:system/vendor/lib/libmmcamera_s5k3p8sp_m24c64s_eeprom.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libmmcamera_sac_lib.so:system/vendor/lib/libmmcamera_sac_lib.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libmmcamera_sat_dummy_lib.so:system/vendor/lib/libmmcamera_sat_dummy_lib.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libmmcamera_sony_imx371_eeprom.so:system/vendor/lib/libmmcamera_sony_imx371_eeprom.so \
@@ -320,6 +342,33 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:system/vendor/lib/libqomx_jpegenc_pipe.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib/libscveBlobDescriptor.so:system/vendor/lib/libscveBlobDescriptor.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib/libscveBlobDescriptor_stub.so:system/vendor/lib/libscveBlobDescriptor_stub.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib/libscveCleverCapture.so:system/vendor/lib/libscveCleverCapture.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib/libscveCleverCapture_stub.so:system/vendor/lib/libscveCleverCapture_stub.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib/libscveCommon.so:system/vendor/lib/libscveCommon.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib/libscveCommon_stub.so:system/vendor/lib/libscveCommon_stub.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib/libscveFaceLandmarks.so:system/vendor/lib/libscveFaceLandmarks.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib/libscveFaceLandmarks_stub.so:system/vendor/lib/libscveFaceLandmarks_stub.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib/libscveFaceRecognition.so:system/vendor/lib/libscveFaceRecognition.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib/libscveFaceRecognition_stub.so:system/vendor/lib/libscveFaceRecognition_stub.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib/libscveImageCloning.so:system/vendor/lib/libscveImageCloning.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib/libscveImageCorrection.so:system/vendor/lib/libscveImageCorrection.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib/libscveImageRemoval.so:system/vendor/lib/libscveImageRemoval.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib/libscveMotionVector.so:system/vendor/lib/libscveMotionVector.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib/libscveObjectMatting.so:system/vendor/lib/libscveObjectMatting.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib/libscveObjectMatting_stub.so:system/vendor/lib/libscveObjectMatting_stub.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib/libscveObjectSegmentation.so:system/vendor/lib/libscveObjectSegmentation.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib/libscveObjectSegmentation_stub.so:system/vendor/lib/libscveObjectSegmentation_stub.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib/libscveObjectTracker.so:system/vendor/lib/libscveObjectTracker.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib/libscveObjectTracker_stub.so:system/vendor/lib/libscveObjectTracker_stub.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib/libscvePanorama.so:system/vendor/lib/libscvePanorama.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib/libscvePanorama_lite.so:system/vendor/lib/libscvePanorama_lite.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib/libscveTextReco.so:system/vendor/lib/libscveTextReco.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib/libscveTextRecoPostProcessing.so:system/vendor/lib/libscveTextRecoPostProcessing.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib/libscveTextReco_stub.so:system/vendor/lib/libscveTextReco_stub.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib/libscveVideoSummary.so:system/vendor/lib/libscveVideoSummary.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib/libscveVideoSummary_stub.so:system/vendor/lib/libscveVideoSummary_stub.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libst_disp.so:system/vendor/lib/libst_disp.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
@@ -334,6 +383,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/dumpling/proprietary/vendor/lib64/libjni_blurbuster.so:system/vendor/lib64/libjni_blurbuster.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib64/libjni_chromaflash.so:system/vendor/lib64/libjni_chromaflash.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib64/libjni_clearsight.so:system/vendor/lib64/libjni_clearsight.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib64/libjni_dualcamera.so:system/vendor/lib64/libjni_dualcamera.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib64/libjni_makeupV2.so:system/vendor/lib64/libjni_makeupV2.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib64/libjni_optizoom.so:system/vendor/lib64/libjni_optizoom.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib64/libjni_panorama.so:system/vendor/lib64/libjni_panorama.so \
@@ -341,7 +391,44 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/dumpling/proprietary/vendor/lib64/libjni_stillmore.so:system/vendor/lib64/libjni_stillmore.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib64/libjni_trackingfocus.so:system/vendor/lib64/libjni_trackingfocus.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib64/libjni_ubifocus.so:system/vendor/lib64/libjni_ubifocus.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib64/libmmcamera2_frame_algorithm.so:system/vendor/lib64/libmmcamera2_frame_algorithm.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib64/libmmcamera2_is.so:system/vendor/lib64/libmmcamera2_is.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib64/libmmcamera2_q3a_core.so:system/vendor/lib64/libmmcamera2_q3a_core.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib64/libmmcamera2_stats_algorithm.so:system/vendor/lib64/libmmcamera2_stats_algorithm.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib64/libmmcamera2_stats_lib.so:system/vendor/lib64/libmmcamera2_stats_lib.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib64/libmmcamera_dbg.so:system/vendor/lib64/libmmcamera_dbg.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib64/libmmcamera_faceproc.so:system/vendor/lib64/libmmcamera_faceproc.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib64/libmmcamera_faceproc2.so:system/vendor/lib64/libmmcamera_faceproc2.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib64/libmmcamera_tintless_algo.so:system/vendor/lib64/libmmcamera_tintless_algo.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib64/liboptizoom.so:system/vendor/lib64/liboptizoom.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib64/libscveBlobDescriptor.so:system/vendor/lib64/libscveBlobDescriptor.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib64/libscveBlobDescriptor_stub.so:system/vendor/lib64/libscveBlobDescriptor_stub.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib64/libscveCleverCapture.so:system/vendor/lib64/libscveCleverCapture.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib64/libscveCleverCapture_stub.so:system/vendor/lib64/libscveCleverCapture_stub.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib64/libscveCommon.so:system/vendor/lib64/libscveCommon.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib64/libscveCommon_stub.so:system/vendor/lib64/libscveCommon_stub.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib64/libscveFaceLandmarks.so:system/vendor/lib64/libscveFaceLandmarks.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib64/libscveFaceLandmarks_stub.so:system/vendor/lib64/libscveFaceLandmarks_stub.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib64/libscveFaceRecognition.so:system/vendor/lib64/libscveFaceRecognition.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib64/libscveFaceRecognition_stub.so:system/vendor/lib64/libscveFaceRecognition_stub.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib64/libscveImageCloning.so:system/vendor/lib64/libscveImageCloning.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib64/libscveImageCorrection.so:system/vendor/lib64/libscveImageCorrection.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib64/libscveImageRemoval.so:system/vendor/lib64/libscveImageRemoval.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib64/libscveMotionVector.so:system/vendor/lib64/libscveMotionVector.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib64/libscveObjectMatting.so:system/vendor/lib64/libscveObjectMatting.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib64/libscveObjectMatting_stub.so:system/vendor/lib64/libscveObjectMatting_stub.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib64/libscveObjectSegmentation.so:system/vendor/lib64/libscveObjectSegmentation.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib64/libscveObjectSegmentation_stub.so:system/vendor/lib64/libscveObjectSegmentation_stub.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib64/libscveObjectTracker.so:system/vendor/lib64/libscveObjectTracker.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib64/libscveObjectTracker_stub.so:system/vendor/lib64/libscveObjectTracker_stub.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib64/libscvePanorama.so:system/vendor/lib64/libscvePanorama.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib64/libscvePanorama_lite.so:system/vendor/lib64/libscvePanorama_lite.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib64/libscveTextReco.so:system/vendor/lib64/libscveTextReco.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib64/libscveTextRecoPostProcessing.so:system/vendor/lib64/libscveTextRecoPostProcessing.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib64/libscveTextReco_stub.so:system/vendor/lib64/libscveTextReco_stub.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib64/libscveVideoSummary.so:system/vendor/lib64/libscveVideoSummary.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib64/libscveVideoSummary_stub.so:system/vendor/lib64/libscveVideoSummary_stub.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib64/libseemore.so:system/vendor/lib64/libseemore.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib64/libts_detected_face_jni.so:system/vendor/lib64/libts_detected_face_jni.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib64/libts_face_beautify_jni.so:system/vendor/lib64/libts_face_beautify_jni.so
