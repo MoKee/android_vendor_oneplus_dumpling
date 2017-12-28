@@ -26,6 +26,9 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/dumpling/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
     vendor/oneplus/dumpling/proprietary/etc/acdbdata/MTP/MTP_workspaceFile.qwsp:system/etc/acdbdata/MTP/MTP_workspaceFile.qwsp \
     vendor/oneplus/dumpling/proprietary/etc/acdbdata/adsp_avs_config.acdb:system/etc/acdbdata/adsp_avs_config.acdb \
+    vendor/oneplus/dumpling/proprietary/etc/camera/ashdr/iso617_4608x3456.ncf:system/etc/camera/ashdr/iso617_4608x3456.ncf \
+    vendor/oneplus/dumpling/proprietary/etc/camera/ashdr/ncf_pack.ncf:system/etc/camera/ashdr/ncf_pack.ncf \
+    vendor/oneplus/dumpling/proprietary/etc/camera/attribute.model:system/etc/camera/attribute.model \
     vendor/oneplus/dumpling/proprietary/etc/camera/camera_config.xml:system/etc/camera/camera_config.xml \
     vendor/oneplus/dumpling/proprietary/etc/camera/cp/CPCalibrationData.bin:system/etc/camera/cp/CPCalibrationData.bin \
     vendor/oneplus/dumpling/proprietary/etc/camera/cp/SystemParamsBokeh.bin:system/etc/camera/cp/SystemParamsBokeh.bin \
@@ -35,6 +38,9 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/dumpling/proprietary/etc/camera/imx371_chromatix.xml:system/etc/camera/imx371_chromatix.xml \
     vendor/oneplus/dumpling/proprietary/etc/camera/imx376k_chromatix.xml:system/etc/camera/imx376k_chromatix.xml \
     vendor/oneplus/dumpling/proprietary/etc/camera/imx398_chromatix.xml:system/etc/camera/imx398_chromatix.xml \
+    vendor/oneplus/dumpling/proprietary/etc/camera/license.lic:system/etc/camera/license.lic \
+    vendor/oneplus/dumpling/proprietary/etc/camera/sticker/megviifacepp_0_4_7_model:system/etc/camera/sticker/megviifacepp_0_4_7_model \
+    vendor/oneplus/dumpling/proprietary/etc/camera/sticker/mgbeautify_1_2_3_model:system/etc/camera/sticker/mgbeautify_1_2_3_model \
     vendor/oneplus/dumpling/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
     vendor/oneplus/dumpling/proprietary/etc/firmware/cpp_firmware_v1_12_0.fw:system/etc/firmware/cpp_firmware_v1_12_0.fw \
     vendor/oneplus/dumpling/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
@@ -93,6 +99,8 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libarcsoft_dualcam_refocus.so:system/vendor/lib/libarcsoft_dualcam_refocus.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libblurbuster.so:system/vendor/lib/libblurbuster.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libcamera_bokeh_wrapper.so:system/vendor/lib/libcamera_bokeh_wrapper.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib/libcamera_cp_wrapper.so:system/vendor/lib/libcamera_cp_wrapper.so \
+    vendor/oneplus/dumpling/proprietary/vendor/lib/libcamera_oneplus_bokeh_wrapper.so:system/vendor/lib/libcamera_oneplus_bokeh_wrapper.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libcdsprpc.so:system/vendor/lib/libcdsprpc.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
     vendor/oneplus/dumpling/proprietary/vendor/lib/libchromatix_imx350_3a_1536x866_30fps_video.so:system/vendor/lib/libchromatix_imx350_3a_1536x866_30fps_video.so \
