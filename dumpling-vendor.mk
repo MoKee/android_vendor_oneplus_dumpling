@@ -1,4 +1,4 @@
-# Copyright (C) 2017 The MoKee Open Source Project
+# Copyright (C) 2017-2018 The MoKee Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -84,7 +84,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/dumpling/proprietary/lib/rfsa/adsp/libdepthmap_skel.so:system/lib/rfsa/adsp/libdepthmap_skel.so \
     vendor/oneplus/dumpling/proprietary/lib/rfsa/adsp/libthread_blur_skel.so:system/lib/rfsa/adsp/libthread_blur_skel.so \
     vendor/oneplus/dumpling/proprietary/lib64/hw/gf_fingerprint.msm8998.so:system/lib64/hw/gf_fingerprint.msm8998.so \
-    vendor/oneplus/dumpling/proprietary/lib64/hw/fingerprint.msm8998.so:system/lib64/hw/fingerprint.msm8998.so \
+    vendor/oneplus/dumpling/proprietary/lib64/hw/fingerprint.fpc.msm8998.so:system/lib64/hw/fingerprint.fpc.msm8998.so \
     vendor/oneplus/dumpling/proprietary/lib64/libgf_ca.so:system/lib64/libgf_ca.so \
     vendor/oneplus/dumpling/proprietary/lib64/libgf_hal.so:system/lib64/libgf_hal.so \
     vendor/oneplus/dumpling/proprietary/lib64/libgoodixfingerprintd_binder.so:system/lib64/libgoodixfingerprintd_binder.so \
