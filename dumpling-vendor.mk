@@ -29,7 +29,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/dumpling/proprietary/etc/camera/ashdr/iso617_4608x3456.ncf:system/etc/camera/ashdr/iso617_4608x3456.ncf \
     vendor/oneplus/dumpling/proprietary/etc/camera/ashdr/ncf_pack.ncf:system/etc/camera/ashdr/ncf_pack.ncf \
     vendor/oneplus/dumpling/proprietary/etc/camera/attribute.model:system/etc/camera/attribute.model \
-    vendor/oneplus/dumpling/proprietary/etc/camera/camera_config.xml:system/etc/camera/camera_config.xml \
     vendor/oneplus/dumpling/proprietary/etc/camera/cp/CPCalibrationData.bin:system/etc/camera/cp/CPCalibrationData.bin \
     vendor/oneplus/dumpling/proprietary/etc/camera/cp/SystemParamsBokeh.bin:system/etc/camera/cp/SystemParamsBokeh.bin \
     vendor/oneplus/dumpling/proprietary/etc/camera/cp/SystemParamsFusion.bin:system/etc/camera/cp/SystemParamsFusion.bin \
