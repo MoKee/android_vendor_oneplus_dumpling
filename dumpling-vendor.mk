@@ -83,8 +83,8 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/dumpling/proprietary/lib/rfsa/adsp/libVDHexagonBlurless_skel.so:system/lib/rfsa/adsp/libVDHexagonBlurless_skel.so \
     vendor/oneplus/dumpling/proprietary/lib/rfsa/adsp/libdepthmap_skel.so:system/lib/rfsa/adsp/libdepthmap_skel.so \
     vendor/oneplus/dumpling/proprietary/lib/rfsa/adsp/libthread_blur_skel.so:system/lib/rfsa/adsp/libthread_blur_skel.so \
-    vendor/oneplus/dumpling/proprietary/lib64/hw/gf_fingerprint.msm8998.so:system/lib64/hw/gf_fingerprint.msm8998.so \
-    vendor/oneplus/dumpling/proprietary/lib64/hw/fingerprint.fpc.msm8998.so:system/lib64/hw/fingerprint.fpc.msm8998.so \
+    vendor/oneplus/dumpling/proprietary/lib64/hw/gf_fingerprint.default.so:system/lib64/hw/gf_fingerprint.default.so \
+    vendor/oneplus/dumpling/proprietary/lib64/hw/fingerprint.fpc.so:system/lib64/hw/fingerprint.fpc.so \
     vendor/oneplus/dumpling/proprietary/lib64/libgf_ca.so:system/lib64/libgf_ca.so \
     vendor/oneplus/dumpling/proprietary/lib64/libgf_hal.so:system/lib64/libgf_hal.so \
     vendor/oneplus/dumpling/proprietary/lib64/libgoodixfingerprintd_binder.so:system/lib64/libgoodixfingerprintd_binder.so \
