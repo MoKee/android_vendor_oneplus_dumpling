@@ -87,11 +87,9 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/dumpling/proprietary/lib/libopcamera_native_modules.so:system/lib/libopcamera_native_modules.so \
     vendor/oneplus/dumpling/proprietary/lib/libopposfr.so:system/lib/libopposfr.so \
     vendor/oneplus/dumpling/proprietary/lib/libscveBlobDescriptor.so:system/lib/libscveBlobDescriptor.so \
-    vendor/oneplus/dumpling/proprietary/lib/libscveBlobDescriptor_skel.so:system/lib/libscveBlobDescriptor_skel.so \
     vendor/oneplus/dumpling/proprietary/lib/libscveBlobDescriptor_stub.so:system/lib/libscveBlobDescriptor_stub.so \
     vendor/oneplus/dumpling/proprietary/lib/libscveCommon.so:system/lib/libscveCommon.so \
     vendor/oneplus/dumpling/proprietary/lib/libscveCommon_stub.so:system/lib/libscveCommon_stub.so \
-    vendor/oneplus/dumpling/proprietary/lib/libscveFaceLandmark_skel.so:system/lib/libscveFaceLandmark_skel.so \
     vendor/oneplus/dumpling/proprietary/lib/libscveFaceLandmarks.so:system/lib/libscveFaceLandmarks.so \
     vendor/oneplus/dumpling/proprietary/lib/libscveFaceLandmarks_stub.so:system/lib/libscveFaceLandmarks_stub.so \
     vendor/oneplus/dumpling/proprietary/lib/libscveFaceRecognition.so:system/lib/libscveFaceRecognition.so \
@@ -101,7 +99,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/dumpling/proprietary/lib/libscveObjectTracker_stub.so:system/lib/libscveObjectTracker_stub.so \
     vendor/oneplus/dumpling/proprietary/lib/libscvePanorama.so:system/lib/libscvePanorama.so \
     vendor/oneplus/dumpling/proprietary/lib/libscvePanorama_lite.so:system/lib/libscvePanorama_lite.so \
-    vendor/oneplus/dumpling/proprietary/lib/libscveT2T_skel.so:system/lib/libscveT2T_skel.so \
     vendor/oneplus/dumpling/proprietary/lib/libtrueportrait.so:system/lib/libtrueportrait.so \
     vendor/oneplus/dumpling/proprietary/lib/rfsa/adsp/libVDHexagonBlurless_skel.so:system/lib/rfsa/adsp/libVDHexagonBlurless_skel.so \
     vendor/oneplus/dumpling/proprietary/lib/rfsa/adsp/libdepthmap_skel.so:system/lib/rfsa/adsp/libdepthmap_skel.so \
