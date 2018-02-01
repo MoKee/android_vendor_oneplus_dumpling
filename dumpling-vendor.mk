@@ -26,6 +26,14 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/dumpling/proprietary/lib64/libgf_ca.so:system/lib64/libgf_ca.so \
     vendor/oneplus/dumpling/proprietary/lib64/libgf_hal.so:system/lib64/libgf_hal.so \
     vendor/oneplus/dumpling/proprietary/lib64/libgoodixfingerprintd_binder.so:system/lib64/libgoodixfingerprintd_binder.so \
+    vendor/oneplus/dumpling/proprietary/vendor/etc/acdbdata/EU/EU_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/EU/EU_Bluetooth_cal.acdb \
+    vendor/oneplus/dumpling/proprietary/vendor/etc/acdbdata/EU/EU_General_cal.acdb:system/vendor/etc/acdbdata/EU/EU_General_cal.acdb \
+    vendor/oneplus/dumpling/proprietary/vendor/etc/acdbdata/EU/EU_Global_cal.acdb:system/vendor/etc/acdbdata/EU/EU_Global_cal.acdb \
+    vendor/oneplus/dumpling/proprietary/vendor/etc/acdbdata/EU/EU_Handset_cal.acdb:system/vendor/etc/acdbdata/EU/EU_Handset_cal.acdb \
+    vendor/oneplus/dumpling/proprietary/vendor/etc/acdbdata/EU/EU_Hdmi_cal.acdb:system/vendor/etc/acdbdata/EU/EU_Hdmi_cal.acdb \
+    vendor/oneplus/dumpling/proprietary/vendor/etc/acdbdata/EU/EU_Headset_cal.acdb:system/vendor/etc/acdbdata/EU/EU_Headset_cal.acdb \
+    vendor/oneplus/dumpling/proprietary/vendor/etc/acdbdata/EU/EU_Speaker_cal.acdb:system/vendor/etc/acdbdata/EU/EU_Speaker_cal.acdb \
+    vendor/oneplus/dumpling/proprietary/vendor/etc/acdbdata/EU/EU_workspaceFile.qwsp:system/vendor/etc/acdbdata/EU/EU_workspaceFile.qwsp \
     vendor/oneplus/dumpling/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/oneplus/dumpling/proprietary/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/oneplus/dumpling/proprietary/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb \
