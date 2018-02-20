@@ -16,12 +16,12 @@
 
 PRODUCT_COPY_FILES += \
     vendor/oneplus/dumpling/proprietary/etc/firmware/tp/fw_synaptics_17801.img:system/etc/firmware/tp/fw_synaptics_17801.img \
-    vendor/oneplus/dumpling/proprietary/lib/hw/gf_fingerprint.default.so:system/lib/hw/gf_fingerprint.default.so \
+    vendor/oneplus/dumpling/proprietary/lib/hw/fingerprint.goodix.so:system/lib/hw/fingerprint.goodix.so \
     vendor/oneplus/dumpling/proprietary/lib/hw/fingerprint.fpc.so:system/lib/hw/fingerprint.fpc.so \
     vendor/oneplus/dumpling/proprietary/lib/libgf_ca.so:system/lib/libgf_ca.so \
     vendor/oneplus/dumpling/proprietary/lib/libgf_hal.so:system/lib/libgf_hal.so \
     vendor/oneplus/dumpling/proprietary/lib/libgoodixfingerprintd_binder.so:system/lib/libgoodixfingerprintd_binder.so \
-    vendor/oneplus/dumpling/proprietary/lib64/hw/gf_fingerprint.default.so:system/lib64/hw/gf_fingerprint.default.so \
+    vendor/oneplus/dumpling/proprietary/lib64/hw/fingerprint.goodix.so:system/lib64/hw/fingerprint.goodix.so \
     vendor/oneplus/dumpling/proprietary/lib64/hw/fingerprint.fpc.so:system/lib64/hw/fingerprint.fpc.so \
     vendor/oneplus/dumpling/proprietary/lib64/libgf_ca.so:system/lib64/libgf_ca.so \
     vendor/oneplus/dumpling/proprietary/lib64/libgf_hal.so:system/lib64/libgf_hal.so \
